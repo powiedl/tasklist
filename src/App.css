@@ -28,10 +28,24 @@
   color: #61dafb;
 }
 
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  color: green;
+}
+
+.overdue {
+  background-color: red;
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
